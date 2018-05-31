@@ -15,4 +15,7 @@
 - Click `Load Unpacked`
 - Navigate to folder and upload
 
+
+_Icons by [Prekesh](https://twitter.com/prekesh)_
+
 ✌🏻
