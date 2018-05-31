@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+
+    "name": "New Tab",
+    "description": "A custom new tab",
+    "homepage_url": "http://jrich.cc",
+    "version": "1.0",
+    "chrome_url_overrides" :{
+        "newtab": "index.html"
+    }
+}
