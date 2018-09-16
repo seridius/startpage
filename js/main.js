@@ -19,11 +19,11 @@ fetch(weatherUrl)
     temp.innerHTML = degrees;
 
     if (label.includes('Sunny') || label.includes('Clear')) {
-      icon.innerHTML = '☀';
+      icon.innerHTML = '☀️';
     }
 
     if (label.includes('snow')) {
-      icon.innerHTML = '☃';
+      icon.innerHTML = '⛄️';
     }
 
     if (label.includes('Cloud') || label.includes('Mist') || label.includes('cloudy') || label.includes('Overcast')) {
@@ -31,6 +31,6 @@ fetch(weatherUrl)
     }
 
     if (label.includes('Rain') || label.includes('rain') || label.includes('drizzle')) {
-      icon.innerHTML = '☂';
+      icon.innerHTML = '🌧';
     }
   });

@@ -1,15 +1,15 @@
-$background-color: #0E1112;
+$background-color: #000000;
 $block-color: transparent;
-$block-border: #222;
-$block-header: #EDA2C0;
-$block-link: #FFFFFF;
-$block-hover: #91C499;
+$block-border: lighten($background-color, 10%);
+$block-header: #8EF9F3;
+$block-link: #ffffff;
+$block-hover: #8EF9F3;
 
-$base-font-family: 'Anonymous Pro', monospace;;
+$base-font-family: "Operator Mono";
 $base-font-size: 16px;
-$base-font-weight: 300;
-$base-line-height: 1.4;
-$base-max-width: 800px;
+$base-font-weight: 100;
+$base-line-height: 1.6;
+$base-max-width: 1000px;
 
 .weather {
   display: table;
@@ -37,7 +37,10 @@ body {
   font-size: $base-font-size;
   font-weight: $base-font-weight;
   line-height: $base-line-height;
-  padding-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 ul, li {
@@ -62,14 +65,20 @@ a {
 
 .block {
   flex: 1;
-  margin: 1px;
-  padding: 15px 20px;
+  margin: 5px;
+  padding: 20px 30px;
   background-color: $block-color;
   border: 1px solid $block-border;
-  min-width: 180px;
+  min-width: 250px;
 }
 
 .header {
   color: $block-header;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+
+  svg {
+    margin-right: 10px;
+  }
 }
